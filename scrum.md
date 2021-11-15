@@ -34,6 +34,6 @@ Which complications of can you see?
 
 
 Which advantages of scrum can you see?
-- Hohe FlexibilitätHohe 
-- Effektivität durch Selbstorganisation
+- Hohe Flexibilit
+- Hohe Effektivität durch Selbstorganisation
 - Hohe Transparenz durch regelmäßige Meetings und Backlogs
