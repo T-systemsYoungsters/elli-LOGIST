@@ -1,0 +1,56 @@
+print("QUIZ!")
+
+count = 0
+
+print ("Wie heißt die Hauptstadt von Russland?")
+
+a = input("Bitte Anwort eingeben: ")
+if a == "Moskau":
+    print("Deine Antwort ist richtig!")
+    count = count + 1
+else:
+    print("Deine Antwort ist leider falsch.")
+
+
+print("Wie heißt Hermine aus Harry Potter mit Nachnamen?")
+b = input("Bitte Antwort eingeben: ")
+if b == "Granger" :
+    print("Deine Antwort ist richtig!")
+    count = count + 1
+else:
+    print("Deine Antwort ist leider falsch.")
+
+print("Wie viel weigt eine normale Tafel Schokolade in gramm?")
+c = int(input("Bitte Antwort eingeben: "))
+if c == 100:
+    print("Deine Antwort ist richtig!")
+    count = count + 1
+else:
+    print("Deine Antwort ist leider falsch.")
+
+print("Wie heißt eine deutsche Kinderserie in der ein Brot mitspielt?")
+d = input("Bitte Antwort eingeben: ")
+if d == "Bernd das Brot":
+    print("Deine Antwort ist richtig!")
+    count = count + 1
+else:
+    print("Deine Antwort ist leider falsch.")
+
+
+print("Was ergibt 2+2?")
+e = int(input("Bitte Antwort eingeben: "))
+if e == 4:
+    print("Deine Antwort ist richtig!")
+    count = count + 1
+else:
+    print("Deine Antwort ist leider falsch.")
+
+
+count_percent = (count / 5) * 100 
+
+if count == 1:
+    print("Herzlichen Glückwunsch, du hast", count,"Frage richtig beantwortet!")
+    print("Das entspricht", count_percent,"Prozent")
+else:
+    print("Herzlichen Glückwunsch, du hast", count,"Fragen richtig beantwortet!")
+    print("Das entspricht", count_percent,"Prozent")
