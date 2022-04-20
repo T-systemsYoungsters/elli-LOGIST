@@ -130,30 +130,32 @@ print("Total amount of tail: ", coinTails)
                                  
 import random
 
-pcPick = random.randrange(2)
+pcPick = random.randrange(1,4)
 userPick = 0
+print()
 print("ROCK, PAPER, SCISSORS GAME!!")
+print()
 print("You are going to play againt the computer.")
-print("For simplicity please enter 0 for rock, 1 for paper and 2 for scissors")
-
+print("For simplicity please enter 1 for rock, 2 for paper and 3 for scissors")
+print()
 
 userPick = int(input("Enter your choice: "))
 print("Computers choice: ", pcPick)
 
 if pcPick == userPick:
     print("It is a tie. Play again.")
-elif userPick == 0:
-    if pcPick == 2:
+elif userPick == 1:
+    if pcPick == 3:
         print("Rock smashes scissors! You win!")    
     else:
         print("Paper covers rock! You lose.")
-elif userPick == 1:
-    if pcPick == 0:
+elif userPick == 2:
+    if pcPick == 1:
         print("Paper covers rock! You win!")
     else:
         print("Scissors cuts paper! You lose.")
-elif userPick == 2:
-    if pcPick == 1:
+elif userPick == 3:
+    if pcPick == 2:
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
