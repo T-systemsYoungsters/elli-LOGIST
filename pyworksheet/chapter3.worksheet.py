@@ -121,33 +121,33 @@ if x == "Happy" or x == "Glad":
 10. Look at the code below. Write you best guess on what it will print.
     Next, run the code and see if you are correct. (2 pts)
      
-    x = 5
-    y = 10
-    z = 10
-    print(x < y) # 5 < 10
-    print(y < z) # 10 < 10
-    print(x == 5) # 5
-    print(not x == 5) #idk
-    print(x != 5)
-    print(not x != 5)
-    print(x == "5")
-    print(5 == x + 0.00000000001)
-    print(x == 5 and y == 10)
-    print(x == 5 and y == 5)
-    print(x == 5 or y == 5)
+       x = 5
+       y = 10
+       z = 10
+       print(x < y) # true
+       print(y < z) # false
+       print(x == 5) # true
+       print(not x == 5) #false
+       print(x != 5)#false
+       print(not x != 5)#true
+       print(x == "5")#false
+       print(5 == x + 0.00000000001)#false
+       print(x == 5 and y == 10)#true
+       print(x == 5 and y == 5)#false
+       print(x == 5 or y == 5)#true
      
 11. Look at the code below. Write you best guess on what it will print.
     Next, run the code and see if you are correct. (2 pts)
      
-    print("3" == "3")
-    print(" 3" == "3")
-    print(3 < 4)
-    print(3 < 10)
-    print("3" < "4")
-    print("3" < "10")
-    print( (2 == 2) == "True" )
-    print( (2 == 2) == True )
-    print(3 < "3")
+    print("3" == "3") #true
+    print(" 3" == "3") #false
+    print(3 < 4)#true
+    print(3 < 10)#true
+    print("3" < "4")#true
+    print("3" < "10")#false
+    print( (2 == 2) == "True" )#false
+    print( (2 == 2) == True )#true
+    print(3 < "3")#error
      
  
 12. What things are wrong with this section of code?
