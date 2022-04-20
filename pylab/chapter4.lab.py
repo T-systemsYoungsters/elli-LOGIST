@@ -1,5 +1,5 @@
 import random
-from re import U
+
 
 
 print("Welcome to Camel!")
@@ -56,7 +56,7 @@ while not done :
         print("Miles traveled: ", miles)
         print()
         thirst += 1
-        tiredness = random.randrange(1,4)
+        tiredness += random.randrange(1,4)
         natives += random.randrange(7,15)
         
     elif userChoice.upper() == "D":
