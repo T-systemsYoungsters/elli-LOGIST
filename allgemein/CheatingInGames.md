@@ -1,4 +1,4 @@
-# How does cheating works in modern games *still in progress*
+# How does cheating works in modern games (*still in progress*)
 
 ## What tricks are commonly used to cheat in video games?
 
